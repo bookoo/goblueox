@@ -1,0 +1,312 @@
+
+/* Large desktop */
+@media ( min-width:1200px){	
+
+}
+
+@media ( min-width:1024px){
+	
+}
+
+/* Portrait tablet to landscape and desktop */
+@media ( min-width:769px) and (max-width:979px){
+		.wrap					{ width:750px;}
+		.top_header				{ width:57%; height:55px; }
+		.top_header ul			{ float:right; width:52%;}
+		.navigation span.logo	{ left:8px; top:-15px; width:250px;}
+                .nav {
+                                width:64%;
+                }
+		.nav ul li				{ margin:0 0 0 8px;}
+		.nav ul li a			{ font-size:1.083em;}
+		#blueoxPlumber { position: relative; bottom: -42px;}
+		.left_banner .h1-heading			{ font-size:2.917em;}
+		.left_banner .h2-heading			{ font-size:2.750em;}
+		.left_banner span		{ margin:20px 0 0;}
+		.first_container .h1-heading		{ font-size:3.500em; padding:25px 0 0;}
+		.first_container ul li.first_box	{ width:48.5%;} 
+		.first_container ul li.first_box .inner_box .h6-heading	{ padding:68px 7px 0 0;}
+		.first_container ul li.first_box .inner_box .h2-heading	{ font-size:7.667em; line-height:93px; padding-right:3px;}
+		.first_container ul li.second_box .inner_box .h6-heading	{ padding:68px 10px 0 0;}
+		.first_container ul li.second_box .inner_box .h2-heading	{ font-size:7.917em; line-height:95px; padding-right:15px;}
+		.first_container ul li.first_box span			{ padding-left:70px; width:62%;}
+		.first_container ul li.second_box span			{ padding-left:105px; width:45%;}
+                .second_conatiner .h5-heading {
+                                font-size:2em;
+                }
+		.third_container span							{ width:36%;}
+		ul.top_footer_menu								{ width:100%; padding:35px 0 0;}
+		ul.social										{ margin:30px auto 0; width:31%;}
+		.footer					{ min-height:430px;}
+		.bottom_footer			{ min-height:70px;}
+		.third_container span.truck_img	{ width:750px;}
+		.third_container span.truck_img img	{ width:750px;}
+		.iphone_header									 { display:none;}
+		.third_container .h4-heading								 { display:none;}	
+		.nav_phone				{ display:none;}
+		.nav_phone .h6-heading									{ display:none;}
+                #hpqc {
+                                zoom:80%;
+                }
+                .header .wrap {
+                                width:100%;
+                }
+}
+
+/* Landscape phone to portrait tablet */
+@media ( max-width:768px){
+	.wrap						{ width:732px; margin:0 auto; height:auto;}	
+	.header						{ margin:0; padding:0; background:url(../images/ipad_header_bg.jpg) center top no-repeat; 
+						  		   }
+	#blueoxPlumber {bottom: -5px;}
+	.navigation span.logo   	{ width:250px; height:93px; left:8px; top:-16px;}
+	.top_header					{ width:68%;}
+	.top_header p				{ margin:15px 0 0 80px;}
+	.top_header ul				{ float:right; margin:15px 0 0;}
+	.nav ul						{ display:none;}
+	.left_banner				{ width:45%; margin:0 0 0 20px;}
+	.left_banner .h1-heading				{ font-size:2.750em;}
+	.left_banner .h2-heading				{ font-size:2.583em;}	
+	.left_banner p				{ width:99%;}
+	.right_banner				{ width:47%; right:50px; margin:56px 0 0;}
+	.right_banner img			{ height:400px;}
+	.first_container .h1-heading			{ width:60%; font-size:4.750em; margin:0 auto; line-height:57px; padding:35px 0 0;}	
+	.first_container .h5-heading			{ width:60%; font-size:2.167em; margin:0 auto; line-height:38px; padding-top:6px;}
+	.first_container ul			{ padding-top:30px; width:98%; margin-left:15px;}
+	.first_container ul li.first_box { width:48%; background:url(../images/ipad_box1.png) left top no-repeat; min-height:295px; }	
+	.first_container ul li.first_box .inner_box	{ height:235px;}
+	.first_container ul li.first_box .inner_box .h6-heading	{ padding:55px 55px 0 0; font-size:1.250em;}
+	.first_container ul li.first_box .inner_box .h2-heading	{ font-size:7.500em; line-height:60px;}
+	.first_container ul li.first_box span			{ width:75%; padding-left:40px; font-weight:bold;}		
+	.first_container ul li.second_box 				{ width:48%; background:url(../images/ipad_box2.png) left top no-repeat; min-height:295px; }	
+	.first_container ul li.second_box .inner_box	{ height:235px;}
+	.first_container ul li.second_box .inner_box .h6-heading	{ padding:55px 55px 0 0; font-size:1.250em;}
+	.first_container ul li.second_box .inner_box .h2-heading	{ font-size:7.500em; line-height:60px;}
+	.first_container ul li.second_box span			{ width:60%; padding-left:60px; font-weight:bold;}	
+	.second_conatiner .h2-heading							{ font-size:4.583em; padding:20px 0px 0px 0px; line-height:60px; margin:0 auto; width:63%;}
+	.second_conatiner .h5-heading							{ width:75%; font-size:2em; line-height:35px; margin:0 auto; padding-top:5px;}
+	.second_conatiner span							{ width:23%;}
+	.third_container span							{ width:37%;}
+	.third_container span.truck_img					{ width:732px;}
+	.third_container span.truck_img	img	       		{ width:732px;}
+	.third_container .h5-heading								{ font-size:4.583em; padding:15px 0 5px;}
+                .third_container .h6-heading { position:relative; z-index:11; }						
+	.third_container p.para							{ display:block; width:75%; line-height:28px; font-size:1.750em; margin:0 auto;}	
+	.inner_third_container							{ display:none;}  
+	.inner_third_container1							{ display:block; position:absolute; top:320px;}
+	.left_content_area .h4-heading							{ padding:50px 0 30px 10px;}
+	.left_content_area p							{ padding:0 0 0 12px; font-size:1.167em; width:90%;}
+	.right_content_area								{ margin-top:50px;}
+	.right_content_area ul li						{ width:70%;} 
+	.right_content_area .h4-heading							{ padding:0 0 30px 26px; width:50%;} 
+	ul.social										{ width:33%; margin:35px auto 0;}
+	ul.top_footer_menu								{ display:none;}
+	.top_footer_menu1								{ display:block; width:100%;}
+	.top_footer										{ background:url(../images/bg4.jpg) center top no-repeat; min-height:524px;}
+	.bottom_footer									{ min-height:50px;}
+	.bottom_footer p								{ padding-top:21px; display:inline-block;}
+	.bottom_footer .textwidget								{ text-align:center;}
+	.bottom_footer span								{ padding-top:21px; float:none;display:block;}
+	.iphone_header									{ display:none;}	
+	.third_container .h4-heading								{ display:none;}
+	.nav_phone										{ display:block;}
+	.nav_phone .h6-heading									{ display:block;}
+        #hpqc {
+                zoom:80%;
+        }
+}
+
+/* Landscape phones and down */
+@media only screen and (min-width: 480px) and ( max-width:767px) {
+		.wrap						{ width:460px; margin:0 auto; height:auto;}	
+		.header						{ min-height:510px;}
+		.inner_header				{ min-height:510px;}
+		.top_header					{ width:85%;}
+
+		.navigation span.logo		{ width:230px; height:85px; left:0px; top:-25px;}
+		.top_header p				{ margin:15px 0 0 60px; font-size:1.000em;}
+		.top_header ul				{ width:47%;}
+		.top_header ul li			{ font-size:1.500em; padding:0 12px 0 2px;}
+		.inner_header				{ background:none;}
+		.banner						{ min-height:387px;}
+		.left_banner				{ margin:0 0 0 12px;}
+		.left_banner .h1-heading				{ font-size:1.750em; line-height:25px;}
+		.left_banner .h2-heading				{ font-size:1.667em; line-height:30px;}
+		.right_banner				{ width:56%; right:-10px;}
+		.right_banner img			{ height:330px; width:auto;}
+		.left_banner p				{ font-size:1.083em; padding:0 0 0 12px;}
+		.left_banner span			{ margin:25px 0px 0px 0px;}
+		.left_banner span a			{ font-size:1.833em;}
+		.first_container .h1-heading			{ font-size:3.500em; width:80%; line-height:40px; padding:15px 0px 0px 0px;}
+		.first_container .h5-heading			{ font-size:1.667em; width:92%; line-height:25px;}
+		.first_container ul			{ width:80%; margin-left:75px; padding-top:16px;}
+		.first_container ul li.first_box	{ width:82%; background:url(../images/iphone_box_img1.png) left top no-repeat; min-height:190px;}
+		.first_container ul li.first_box .inner_box		{ height:150px;}
+		.first_container ul li.first_box .inner_box .h6-heading	{ padding:23px 30px 0 0;}
+		.first_container ul li.first_box .inner_box .h2-heading	{ font-size:6.250em; line-height:42px;}
+		.first_container ul li.first_box span	{ height:45px;}
+		.first_container ul li.first_box span a	{ font-size:1.167em;}
+		.first_container ul li.second_box	{ width:82%; background:url(../images/iphone_box_img2.png) left top no-repeat; min-height:190px;}
+		.first_container ul li.second_box .inner_box		{ height:150px;}
+		.first_container ul li.second_box .inner_box .h6-heading	{ padding:23px 30px 0 0;}
+		.first_container ul li.second_box .inner_box .h2-heading	{ font-size:6.250em; line-height:42px;}
+		.first_container ul li.second_box span	{ height:45px;}
+		.first_container ul li.second_box span a	{ font-size:1.167em;}
+		.second_conatiner .h2-heading						{ font-size:3.333em; line-height:48px; padding:28px 0px 0px 0px;}
+		.second_conatiner .h5-heading						{ font-size:1.667em; line-height:35px; padding-top:10px;}
+		.second_conatiner span						{ width:35%;}
+		.inner_third_container						{ display:none;}  
+		.inner_third_container1						{ display:block; top:260px; position:absolute;}
+		.third_container span.truck_img				{ width:460px; height:325px; }
+		.third_container span.truck_img img			{ width:460px; height:auto; padding-top:42px; border-top:1px solid #fff;}
+		.third_container .h2-heading							{ font-size:3.333em; padding:15px 0 10px; line-height:40px;}
+		.third_container .h6-heading							{ font-size:1.333em; line-height:23px;}
+		.third_container span						{ width:58%; padding-top:12px;}
+		.third_container .h5-heading							{ font-size:3.583em; line-height:50px;}
+		.third_container p.para						{ width:87%;}
+		.third_container							{ min-height:740px;}
+		.left_content_area .h4-heading						{ padding:30px 0 20px 10px;}
+		.left_content_area p						{ font-size:0.917em; margin-bottom:12px; line-height:17px;}
+		.right_content_area .h4-heading						{ width:65%; padding:0 0 30px 16px;}
+		.right_content_area ul						{ margin-left:10px;}
+		.right_content_area ul li					{ width:80%; font-size:0.917em;  margin-bottom:15px; padding-left:52px;}
+		.right_content_area							{ margin-top:35px;}
+		.top_footer_menu1 ul li.mission .h6-heading			{ padding:52px 0 10px; width:80%;}
+		.top_footer_menu1 ul li.mission p			{ width:88%;}
+                footer .top_footer .textwidget {
+                                text-align:center;
+                }
+		ul.social									{ width:auto; display:inline-block;}
+                ul.social li { margin:0; padding:6px; }
+		.iphone_header							    { display:none;}
+		.third_container .h4-heading						    { display:none;}
+		.nav_phone									{ display:block; width:45%;}
+		.nav										{ margin:15px 0px 0px 0px;}	
+		.nav_phone .h6-heading									{ display:none;}
+                #hpqc {
+                                display:none;
+                }
+}
+
+
+@media only screen and (min-width: 320px) and ( max-width:479px){
+                img	{ width:100%; max-width:100%; height:auto; display:block;}
+  		.wrap										{ width:280px; margin:0 auto;}
+		.iphone_header								{ display:block;}
+		.top_header									{ display:none;}	
+		.header										{ background:url(../images/iphone_header_bg.jpg) center top no-repeat; min-height:520px; }
+		#blueoxPlumber img {
+			width: 100%;
+			max-width: 180px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#blueoxPlumber {
+			position: relative;
+			bottom: -47px;
+			margin: 0 auto;
+		}
+		.navigation span.logo						{ left:3px; top:24px;}
+		.inner_header								{ background:none; min-height:520px;}
+		.right_banner								{ width:75%; margin:206px 0 0; right:-17px;}
+		.right_banner img							{ height:240px;} 
+		.left_banner								{ margin:0px; width:100%; float:left;}
+		.left_banner .h1-heading						{ font-size:2.167em; padding:70px 0px 0px 0px; line-height:32px;}
+		.left_banner .h2-heading								{ font-size:2.167em; line-height:26px;}
+		.left_banner p								{ font-size:1.000em; line-height:20px; margin:12px 0 0 0px;}
+		.left_banner span							{ margin:12px 0 0;}
+		.left_banner span a							{ font-size:1.167em; background:url(../images/iphone_seperator.png) right top no-repeat;}
+		.first_container							{ background:url(../images/iphone_bg.jpg) center top no-repeat; min-height:485px; background-size:100% 100%;}
+		.first_container .h1-heading							{ font-size:2.500em; line-height:35px; padding:15px 0 0; width:85%;}
+		.first_container .h5-heading							{ font-size:1.250em; line-height:23px; width:90%; padding-top:0px;}
+		.first_container ul							{ width:100%; margin:0px; padding-top:15px;}
+		.first_container ul li.first_box			{ width:82%; background:url(../images/iphone_box_img1.png) left top no-repeat; min-height:190px; margin:0px 0px 0px 20px; min-height:170px;}
+		.first_container ul li.first_box .inner_box		{ height:140px;}
+		.first_container ul li.first_box .inner_box .h6-heading	{ padding:23px 30px 0 0; font-size:0.667em;}
+		.first_container ul li.first_box .inner_box .h2-heading	{ font-size:4.417em; line-height:25px; padding-right:5px;}
+		.first_container ul li.first_box span	{ min-height:10px; width:85%; padding-left:21px;}
+		.first_container ul li.first_box span a	{ font-size:1.000em; background:url(../images/iphone_seperator.png) right 6px no-repeat; min-height:23px;}
+		.first_container ul li.second_box			{ width:82%; background:url(../images/iphone_box_img2.png) left top no-repeat; min-height:190px; margin:0px 0px 0px 20px; min-height:170px;}
+		.first_container ul li.second_box .inner_box		{ height:135px;}
+		.first_container ul li.second_box .inner_box .h6-heading	{ padding:23px 15px 0 0; font-size:0.667em;}
+		.first_container ul li.second_box .inner_box .h2-heading	{ font-size:4.417em; line-height:25px; padding-right:5px;}
+		.first_container ul li.second_box span	{ min-height:10px; width:70%; padding-left:30px;}
+		.first_container ul li.second_box span a	{ font-size:1.000em; background:url(../images/iphone_seperator.png) right 6px no-repeat; min-height:23px;}
+		.second_conatiner						{ min-height:210px;}
+		.second_conatiner .h2-heading					{ font-size:2.500em; line-height:35px; width:90%;}
+		.second_conatiner .h5-heading					{ font-size:1.250em; line-height:25px; width:90%;}
+		.second_conatiner span					{ width:35%;}
+		.second_conatiner span a				{ font-size:1.000em; background:url(../images/iphone_seperator.png) right 6px no-repeat;}
+		.third_container						{ min-height:610px;}
+		.third_container .h2-heading						{ font-size:2.500em; line-height:33px; padding:25px 0 10px; width:76%; margin:0 auto;}
+		.third_container .h6-heading						{ font-size:1em; }
+		.third_container .h4-heading						{ display:none; font-size:1.250em; line-height:21px; color: #0080C2; font-family: Georgia,"Times New Roman",Times,serif;
+												  font-weight: bold;text-align: center; margin-top:7%; }
+                .third_container img {
+                                height:148px;
+                }
+		.third_container span					{ width:51%; padding-top:8px;}
+		.third_container span a					{ font-size:1.000em; background:url(../images/iphone_seperator.png) right 6px no-repeat;}										  
+		.third_container span.truck_img			{ width:280px; height:235px; padding:0px;}
+		.third_container span.truck_img img		{ width:290px; height:143px; margin-top:10%; }
+		.inner_third_container1					{ top:274px;}
+		.third_container .h5-heading						{ font-size:2.500em; padding:0px 0 5px; line-height:35px;}
+                .third_container p {
+                                font-size:1em;
+                }
+		.third_container p.para					{ font-size:1.250em; line-height:24px; width:90%; padding-bottom:10px;}
+                .third_container .wrap {
+                                width:310px;
+                }
+		.left_content_area						{ width:100%;}
+		.left_content_area .h4-heading					{ padding:30px 0 15px 5px; font-size:1.750em;}
+		.left_content_area p					{ line-height:19px; padding:0px 0px 0px 5px; margin-bottom:10px;}
+		.fourth_container						{ background:url(../images/iphone_bg1.jpg) center top no-repeat #fff; min-height:1250px;}
+		.right_content_area						{ width:100%;}	
+		.right_content_area ul li				{ width:90%; font-size:1.250em;}
+		.top_footer_menu1						{ display:none;}
+		ul.top_footer_menu						{ display:block; padding:20px 0px 0px 0px;}
+		ul.top_footer_menu li					{ border:none;}
+		ul.top_footer_menu li.footer_logo		{ width:90%; padding:0px; min-height:150px;}
+		ul.top_footer_menu li.mission			{ width:90%;}
+		ul.top_footer_menu li.contact			{ width:90%;}
+		ul.top_footer_menu li.sitemap			{ width:90%;}
+		ul.top_footer_menu li.footer_logo img	{ margin:0px 0px 0px 65px;}
+		ul.top_footer_menu li .h6-heading				{ padding:0 0 10px 48px;}
+		ul.top_footer_menu li p					{ padding-left:48px; width:90%;}
+		ul.top_footer_menu li.contact span		{ margin:0px 0px 0px 48px;}
+		ul.top_footer_menu li.sitemap .h6-heading		{ padding:10px 0px 0px 20px;}
+		ul.top_footer_menu li.sitemap ul		{ margin:12px 0 0 20px;}
+		ul.social								{ width:auto;display:inline-block;text-align:center;}
+		.top_footer								{ background:url(../images/iphone_bg2.jpg) center top no-repeat; min-height:850px; background-size:100% 100%;}
+		
+		
+		.footer									{ min-height:470px;}
+		.bottom_footer							{ min-height:95px;}
+		.iphone_header .nav_phone				{ display:block; width:18%; margin:10px 25px 0px 0px;}
+		.nav_phone	ul							{ width:140px;}
+		.navigation #nav						{ display:none;}
+		.nav_phone ul li						{ width:90%;}
+		.nav_phone ul li a						{ font-size:10px;}
+		.nav_phone ul li ul						{ width:50%; left:-70px;}
+		.nav_phone ul li ul li a				{ padding:0 0 0 13px; font-size:10px;}
+		.nav_phone ul li a						{ padding:0 0 0 14px;}
+		.nav_phone ul li ul li					{ width:97%;}
+		.nav_phone ul li ul li ul				{ left:-64px; top:30px; width:93%;}
+		.nav_phone ul li ul li ul li a			{ font-size:10px; padding:0 0 0 5px;}
+		.nav_phone .h6-heading							{ display:none;}
+
+		.truck_img	img							{ }
+		.truck_img	.small_truck img            {display:block; }
+                #hpqc {
+                                display:none;
+                }
+                footer .textwidget {
+                                text-align:center;
+                }
+                ul.social li {
+                                margin:0px;
+                                padding:0px 6px;
+                }
+}
+

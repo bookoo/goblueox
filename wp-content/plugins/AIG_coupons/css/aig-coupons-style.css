@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+.aig-coupon {
+    vertical-align: top !important;
+    display: inline-block !important;
+    *display: inline !important;
+    zoom: 1 !important;
+    text-align:left;
+    font-family:Oswald;
+    line-height:1.231;
+    position:relative;
+}
+
+.wp-admin .aig-coupons-wrapper {
+    line-height:1.231;
+}
+
+.wp-admin .aig-coupons-container {
+    background:rgba(0,0,0,0.1);
+}
+
+.aig-coupons-container {
+    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    font-size:0px;
+}
+
+.aig-coupons-container a {
+    vertical-align:top;
+    display:inline-block;
+    zoom:1;
+}
+
+.aig-coupons-container p {
+    display:inline;
+    height:0px !important;
+    margin:0 !important;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.aig-coupons-container img {
+    border:0px;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.wp-admin .row {
+    clear:both;
+}
+
+.wp-admin .row .column {
+    float:left;
+}
+
+.wp-admin .row label {
+    display:block;
+}
+
+.wp-admin .row input {
+    margin-bottom:8px;
+}
+
+.wp-admin .aig-coupons-admin h4 {
+    background:#ffffcc;
+    clear:both;
+    cursor:pointer;
+}
+
+.wp-admin .urlnamediv {
+    padding-top:4px;
+}
+
+.wp-admin .single-coupon-preview {
+    position:absolute;
+    left:50%;
+    top:0px;
+}
+
+.wp-admin .admin-single-coupon {
+    position:relative;
+}
+
+.wp-admin .add_input_button {
+    clear:both;
+}
+
+.coupon-inputfieldtext {
+    position:absolute;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    boz-sizing:border-box;
+}
+
+.wp-admin .real-time-fontsize {
+    width:44px;
+}
+
+.wp-admin .inc-button,
+.wp-admin .dec-button {
+    padding:12px;
+    display:inline-block;
+    padding:0px 4px;
+    background:#1b1b1b;
+    color:#fff;
+    cursor:pointer;
+}
+
+.font-size-column {
+
+}
+
+.column {
+    padding:4px;
+}
+
+.font-size-column {
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit browsers */
+  -webkit-user-select:none;
+}
+
+.wp-admin .current-edit-element {
+    -moz-box-shadow: 0px 0px 7px #ccc;
+    -webkit-box-shadow: 0px 0px 7px #ccc;
+    box-shadow: 0px 0px 7px #ccc; /* For IE 8 */
+}
+
+.wp-admin .settings-width-height {
+    width:77px;
+}
+
+.wp-admin .all-the-text-inputs {
+    background:#ccffcc;
+    display:inline-block;
+}
+
+.wp-admin .long-input {
+    width:333px;
+}

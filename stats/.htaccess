@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "goblueox.com Statistics"
+AuthUserFile /var/chroot/home/content/21/11278921/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

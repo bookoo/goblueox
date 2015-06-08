@@ -1,0 +1,6 @@
+Error log created
+2014-11-12 21:04:32: Could not save XML file -> Could not save marker XML file (/home/content/21/11278921/html/images/wp-google-maps/1markers.xml) for Map ID 1
+2014-11-12 21:06:45: Could not save XML file -> Could not save marker XML file (/home/content/21/11278921/html/images/wp-google-maps/1markers.xml) for Map ID 1
+2014-11-12 21:08:25: Could not save XML file -> Could not save marker XML file (/home/content/21/11278921/html/images/wp-google-maps/1markers.xml) for Map ID 1
+2014-11-12 21:13:07: Could not save XML file -> Could not save marker XML file (http://www.goblueox.com/wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2014-11-12 21:18:15: Could not save XML file -> Could not save marker XML file (http://www.goblueox.com/wp-content/uploads/wp-google-maps/images/1markers.xml) for Map ID 1

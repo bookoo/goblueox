@@ -1,0 +1,103 @@
+/* CSS to style testimonial outputs */
+#AIG_testimonials, #AIG_testimonials * {
+    position:relative;
+    line-height:18px;
+}
+
+#AIG_testimonials {
+    margin:25px auto;
+    overflow:hidden;
+}
+
+#AIG_testimonials .testimonial-stars img {
+    position:relative;
+    display:inline !important;
+    margin:0;
+    padding:0;
+}
+
+#AIG_testimonials .testimonial {
+    margin-bottom:2%;
+    padding:2% 0;
+    border-bottom:dashed 1px #000;
+    overflow:hidden;
+    width:auto;
+}
+
+#AIG_testimonials .testimonial-header {
+    margin-bottom:10px;
+}
+
+#AIG_testimonials .testimonial-client {
+    font-weight:bold;
+}
+
+#AIG_testimonials .testimonial-text {
+    clear:both;
+}
+
+#AIG_testimonials .testimonial-stars {
+    float:left;
+    margin-right:10px;
+    top:-2px;
+}
+
+#AIG_single_testimonial, #AIG_single_testimonial * {
+    position: relative;
+}
+
+#AIG_single_testimonial .testimonial-client {
+    font-weight:bold;
+    text-align:right;
+}
+
+#AIG_testimonial_form td {
+    border-top: 1px solid #DDD;
+    padding: 10px 0px;
+}
+
+#AIG_testimonial_form .error {
+    border:solid 1px #d10000;
+    color: #d10000;
+}
+
+#AIG_testimonial_form #recaptcha_area {
+    margin:0px auto;
+}
+
+#AIG_testimonial_form .php-error {
+    font-weight:bold;
+    color:#d10000;
+    text-align:center;
+    border:solid 1px #d10000;
+}
+
+#AIG_testimonial_form .error {
+    font-weight:bold;
+    color:#d10000;
+    text-align:center;
+    border:none;
+
+}
+#AIG_testimonial_form .input {
+    margin-right:10px;
+    border:solid 1px #dbdbdb;
+}
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating-cancel,div.star-rating{float:left;width:17px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(../images/delete.gif) no-repeat 0 -16px}
+div.star-rating,div.star-rating a{background:url(../images/star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+/* END jQuery.Rating Plugin CSS */
+
+#review-stars {
+    position:relative;
+    overflow:hidden;
+}
